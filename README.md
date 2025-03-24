@@ -1,5 +1,6 @@
 # SoSe_SWE_Ergometer
 # my_functions.py
+
 def estimate_max_hr(age_years : int , sex : str) -> int:
   """
   See https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4124545/ for different formulas
@@ -31,6 +32,7 @@ def build_experiment(experiment_name, date, supervisor, subject) -> dict:
     return experiment_dict
 
 # main.py
+
 from my_functions import build_person, build_experiment
 
 if __name__ == "__main__":
